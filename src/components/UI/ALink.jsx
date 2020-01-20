@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const IssueTextLink = ({ href, text }) => (
+const ALink = ({ href, text }) => (
   <div>
     <Link to={href}>{text}</Link>
   </div>
 );
 
-export default IssueTextLink;
+export default ALink;

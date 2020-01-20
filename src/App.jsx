@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import IssuesPage from './components/Routes/IssuesPage';
-import Details from './components/Routes/Details';
+import IssuesPage from './Routes/IssuesPage';
+import Details from './Routes/Details';
 
 function App() {
   return (

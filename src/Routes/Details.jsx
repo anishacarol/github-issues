@@ -1,9 +1,9 @@
 import React from 'react';
-import IssueTextLink from '../IssueRows/IssueTextLink';
+import ALink from '../components/UI/ALink';
 
 const Details = () => (
   <div>
-    <IssueTextLink />
+    <ALink />
   </div>
 );
 

@@ -1,9 +1,9 @@
 import React from 'react';
-import IssueRows from '../IssueRows/IssueRows';
+import Issues from '../components/Issues/Issues';
 
 const IssuesPage = () => (
   <div>
-    <IssueRows />
+    <Issues />
   </div>
 );
 
