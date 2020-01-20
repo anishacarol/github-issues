@@ -4,10 +4,7 @@ module.exports = {
     commonjs: true,
     es6: true,
   },
-  extends: [
-    'plugin:react/recommended',
-    'airbnb',
-  ],
+  extends: ['plugin:react/recommended', 'airbnb'],
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
@@ -18,9 +15,9 @@ module.exports = {
     },
     ecmaVersion: 2018,
   },
-  plugins: [
-    'react',
-  ],
+  plugins: ['react'],
   rules: {
+    'react/prop-types': 0,
+    'object-curly-newline': 0,
   },
 };

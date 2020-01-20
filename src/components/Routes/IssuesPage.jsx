@@ -1,12 +1,10 @@
 import React from 'react';
 import IssueRows from '../IssueRows/IssueRows';
 
-const IssuesPage = () => {
-  return (
-    <div>
-      <IssueRows />
-    </div>
-  );
-};
+const IssuesPage = () => (
+  <div>
+    <IssueRows />
+  </div>
+);
 
 export default IssuesPage;

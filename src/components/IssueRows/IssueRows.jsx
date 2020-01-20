@@ -1,12 +1,10 @@
 import React from 'react';
 import IssueRow from './IssueRow';
 
-const IssueRows = () => {
-  return (
-    <div>
-      <IssueRow />
-    </div>
-  );
-};
+const IssueRows = () => (
+  <div>
+    <IssueRow />
+  </div>
+);
 
 export default IssueRows;

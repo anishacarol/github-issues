@@ -1,17 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+// import * from "../../components/UI/"
 
-const FancyLink = ({ issueKey, issueValue, backgroundColor, textColor }) => {
-  return (
-    <div>
-      <Link
-        to="#Details"
-        style={{ background: { backgroundColor }, color: { textColor } }}
-      >
-        {issueKey}:{issueValue}
-      </Link>
-    </div>
-  );
-};
+const FancyLink = ({ issueKey, issueValue, backgroundColor, textColor }) => (
+  <div />
+);
 
 export default FancyLink;

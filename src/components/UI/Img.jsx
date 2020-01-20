@@ -1,11 +1,9 @@
 import React from 'react';
 
-const Img = ({ src, altText }) => {
-  return (
-    <div>
-      <img src={src} alt={altText}></img>
-    </div>
-  );
-};
+const Img = ({ src, altText }) => (
+  <div>
+    <img src={src} alt={altText} />
+  </div>
+);
 
 export default Img;
