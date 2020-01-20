@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const IssueTextLink = ({ href, text }) => {
   return (
     <div>
-      <link to={href}>{text}</link>
+      <Link to={href}>{text}</Link>
     </div>
   );
 };

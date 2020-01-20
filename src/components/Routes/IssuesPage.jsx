@@ -1,5 +1,5 @@
 import React from 'react';
-import IssueRows from '../IssueRows';
+import IssueRows from '../IssueRows/IssueRows';
 
 const IssuesPage = () => {
   return (

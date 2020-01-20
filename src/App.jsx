@@ -6,7 +6,7 @@ import Details from './components/Routes/Details';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <BrowserRouter>
         <Switch>
           <Route exactpath="/">
