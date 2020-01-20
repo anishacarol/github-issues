@@ -3,9 +3,10 @@ import Comments from '../../Comment';
 import IssueTextLink from '../../UI/ALink';
 import Tag from '../../UI/Tag';
 import Img from '../../UI/Img';
+import './issue.css';
 
 const Issue = () => (
-  <div>
+  <div className="issue">
     <IssueTextLink href="#Details" text="Hellooooo" />
     <Tag
       issueKey="status"
