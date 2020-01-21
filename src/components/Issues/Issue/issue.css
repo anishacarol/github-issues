@@ -1,5 +1,44 @@
 .issue {
-  width: 100px;
-  height: 100px;
-  background-color: aqua;
+  padding-left: 16px;
+  flex-wrap: row wrap;
+  align-content: center;
+}
+.infoIcon {
+  flex-grow: 0.5;
+  /* flex-basis: 10px; */
+}
+.issueText {
+  flex-grow: 4;
+}
+.textWrapper {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.textLink {
+  display: flex;
+  flex-wrap: row wrap;
+  flex-basis: 200px;
+}
+/* .tagLink {
+  flex-basis: 100px;
+} */
+a:hover {
+  color: blue;
+}
+
+.imgAndComment {
+  flex-grow: 2;
+  text-align: right;
+}
+.image {
+  width: 50%;
+}
+.comment {
+  width: 50%;
+}
+.para {
+  margin: 0;
 }

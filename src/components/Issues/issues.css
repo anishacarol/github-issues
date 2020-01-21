@@ -1,0 +1,11 @@
+.wrapper {
+  width: 75%;
+  margin: auto;
+  background-color: #fff;
+  border: 1px solid #d1d5da;
+  border-radius: 3px;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #24292e;
+}

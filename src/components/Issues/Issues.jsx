@@ -1,8 +1,9 @@
 import React from 'react';
 import Issue from './Issue/Issue';
+import './issues.css';
 
 const Issues = () => (
-  <div>
+  <div className="wrapper">
     <Issue />
   </div>
 );
