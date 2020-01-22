@@ -1,11 +1,15 @@
 .issue {
   padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
   flex-wrap: row wrap;
-  align-content: center;
+  justify-content: center;
+  border: 1px solid #d1d5da;
 }
 .infoIcon {
+  padding-top: 5px;
   flex-grow: 0.5;
-  /* flex-basis: 10px; */
+  align-self: flex-start;
 }
 .issueText {
   flex-grow: 4;
@@ -20,7 +24,6 @@
 .textLink {
   display: flex;
   flex-wrap: row wrap;
-  flex-basis: 200px;
 }
 /* .tagLink {
   flex-basis: 100px;
@@ -28,17 +31,11 @@
 a:hover {
   color: blue;
 }
-
-.imgAndComment {
+a {
+  text-decoration: none;
+}
+.comment-wrapper {
   flex-grow: 2;
+  align-self: flex-start;
   text-align: right;
-}
-.image {
-  width: 50%;
-}
-.comment {
-  width: 50%;
-}
-.para {
-  margin: 0;
 }

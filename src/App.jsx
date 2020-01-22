@@ -9,10 +9,10 @@ function App() {
     <div>
       <BrowserRouter>
         <Switch>
-          <Route exactpath="/">
+          <Route exact path="/">
             <IssuesPage />
           </Route>
-          <Route exactpath="/details">
+          <Route exact path="/details/:issueid">
             <Details />
           </Route>
         </Switch>

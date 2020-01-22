@@ -1,10 +1,10 @@
 import React from 'react';
 import CommentIcon from './svg/CommentIcon';
 
-const Comment = () => (
+const Comment = ({ numOfComments }) => (
   <>
     <CommentIcon />
-    <span>12</span>
+    <span>{numOfComments}</span>
   </>
 );
 

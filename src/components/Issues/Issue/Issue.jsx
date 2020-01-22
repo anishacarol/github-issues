@@ -5,8 +5,9 @@ import Tag from '../../UI/Tag';
 import Img from '../../UI/Img';
 import './issue.css';
 import InfoIcon from '../../svg/InfoIcon';
+import Para from '../../UI/Para';
 
-const Issue = () => (
+const Issue = ({ obj }) => (
   <div className="issue">
     <div className="textWrapper">
       <div className="infoIcon">
@@ -14,27 +15,28 @@ const Issue = () => (
       </div>
       <div className="issueText">
         <div className="textLink">
-          <ALink
-            href="#Details"
-            text="HellooooodEWGREhaer5hy5etya5ha5eghkjegaeguhaels;ijgnwilrhhtrhdtrjuytujytjd7yjutkk7uasdfreagsgtrjudyjtykdtyjsryjregasregraegrgdfgzregergy5syresaeryhs5thtrhrdgbsrgs"
-          />
+          <ALink href={`details/${obj.number}`} text={obj.title} />
         </div>
         <span className="tagLink">
-          <Tag
-            issueKey="status"
-            issueValue="unconformed"
-            backgroundColor="red"
-            textColor="black"
-          />
+          <Tag labelArr={obj.labels} />
         </span>
+        <div className="para">
+          <Para
+            num={obj.number}
+            dateObj={obj.created_at}
+            name={obj.user.login}
+          />
+        </div>
       </div>
-      <div className="imgAndComment">
+      <div>
         <Img className="image" src="" alt="Image" />
-        <Comment className="comment" />
       </div>
-    </div>
-    <div className="para">
-      <p>hjghjgkjhkj</p>
+      <div className="comment-wrapper">
+        <Comment
+          className="comment"
+          numOfComments={obj.comments === 0 ? ' ' : obj.comments}
+        />
+      </div>
     </div>
   </div>
 );
