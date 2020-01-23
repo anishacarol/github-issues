@@ -1,4 +1,4 @@
-.wrapper {
+.detail-wrapper {
   width: 50%;
   margin: auto;
   box-sizing: border-box;
@@ -18,4 +18,50 @@
   height: 50px;
   width: 50px;
   color: white;
+  margin-right: 5px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  padding-right: 16px;
+  padding-left: 16px;
+  color: #586069;
+  background-color: #f6f8fa;
+  border-bottom: 1px solid #d1d5da;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.main {
+  margin-top: 30px;
+  display: flex;
+}
+.markDown-wrapper {
+  border: 1px solid #d1d5da;
+}
+.marrkDown-section {
+  margin-top: 10px;
+  width: 100%;
+  padding: 15px;
+  overflow: visible;
+  font-size: 14px;
+  line-height: 1.5;
+  word-wrap: break-word;
+  border-spacing: 0;
+  border-collapse: collapse;
+  box-sizing: border-box;
+  color: #24292e;
+}
+.aside-section {
+  padding-left: 24px !important;
+  width: 25%;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #24292e;
+}
+.small-section {
+  margin-bottom: 60px;
+}
+.section-data {
+  border-bottom: 1px solid #d1d5da;
 }
