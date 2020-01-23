@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import IssuesPage from './Routes/IssuesPage';
-import Details from './Routes/Details';
+import Details from './Routes/DetailsPage';
 
 function App() {
   return (

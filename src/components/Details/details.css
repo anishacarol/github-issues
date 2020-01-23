@@ -1,0 +1,21 @@
+.wrapper {
+  width: 50%;
+  margin: auto;
+  box-sizing: border-box;
+  border: none;
+}
+
+.datails-title {
+  font-weight: 400;
+  line-height: 1.25;
+  font-size: 32px !important;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.openSpan {
+  background-color: green;
+  height: 50px;
+  width: 50px;
+  color: white;
+}
